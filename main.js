@@ -18,7 +18,7 @@ function Checkforcode() {
 function checkifverified() {
 
 
-  if (verified == "false") {
+  if (verified == "true") {
 
     window.open("index.html", "_self");
   }
