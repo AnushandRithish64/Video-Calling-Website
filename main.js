@@ -1,4 +1,4 @@
-verified = 'false'
+verified = 'true'
 rdmnmbr = Math.floor(100000 + Math.random() * 900000)
 
 ThunkableWebviewerExtension.postMessage(rdmnmbr)
@@ -18,7 +18,7 @@ function Checkforcode() {
 function checkifverified() {
 
 
-  if (verified == "true") {
+  if (verified == "false") {
 
     window.open("index.html", "_self");
   }
